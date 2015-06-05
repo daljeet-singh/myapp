@@ -277,7 +277,7 @@ $(document).ready(function(){
      */
     if ($('#weather-widget')[0]) {
         $.simpleWeather({
-            location: 'Austin, TX',
+            location: 'New Delhi, IN',
             woeid: '',
             unit: 'f',
             success: function(weather) {
